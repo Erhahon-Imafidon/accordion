@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Work Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        src: url("/src/assets/fonts/WorkSans-Bold.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: 'Work Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        src: url("/src/assets/fonts/WorkSans-SemiBold.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: 'Work Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        src: url("/src/assets/fonts/WorkSans-Regular.ttf") format("truetype");
+    }
+}
