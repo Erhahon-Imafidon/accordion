@@ -22,8 +22,8 @@ const Accordion = ({ title, content, isOpenState = false }: AccordionProps) => {
                 {isOpen ? <Minus /> : <Plus />}
             </button>
 
-				<div className={`overflow-hidden transition-max-height duration-300 ease-in ${isOpen ? 'max-h-screen' : 'max-h-0'}`}>
-					<p className='text-dark-grayish-blue font-work-sans text-sm mt-2 text-gray-purple'>{content}</p>
+				<div className={`overflow-hidden transition-max-height duration-300 ease-in-out ${isOpen ? 'max-h-48' : 'max-h-0'}`}>
+					<p className='font-work-sans transition-opacity text-sm mt-2 text-gray-purple'>{content}</p>
 				</div>
 
         </div>
