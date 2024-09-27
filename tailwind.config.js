@@ -7,11 +7,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        workSans: ['Work Sans', 'sans-serif'],
+        'work-sans': ['Work Sans', 'sans-serif'],
       },
-      color: {
+      colors: {
         whiteFaq: 'hsl(0, 0%, 100%)',
         'light-pink': 'hsl(275, 100%, 97%)',
+        "medium-purple": '#A822E3',
         'gray-purple': 'hsl(292, 16%, 49%)',
         'dark-purple': 'hsl(292, 42%, 14%)'
       },
