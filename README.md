@@ -31,6 +31,7 @@ Users should be able to:
 
 ![Desktop](./src/assets/screenshot/desktop.png)
 ![Mobile](./src/assets/screenshot/faq-mobile.png)
+![Active](./src/assets/screenshot/faq-active.png)
 
 ### Links
 
