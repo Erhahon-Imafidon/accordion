@@ -14,7 +14,6 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -35,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/Erhahon-Imafidon/accordion)
+- Live Site URL: [Accordion](https://accordion-xi-blond.vercel.app/)
 
 ## My process
 
@@ -45,34 +44,28 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Tailwind CSS](https://tailwindcss.com/) - For styles
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learnt how to quickly code a faq page using custom accordion with React and  tailwind css. And how to make the first Accordion be opened by default
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+### I am very proud of this section element on how it can be a flex container and it can let you center the rest component
+
+
+```js
+<section className='bg-mobile md:bg-desktop bg-cover h-2/5 absolute inset-0'></section>
 ```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+ <main className='font-workSans bg-light-pink w-full h-screen relative flex flex-col justify-center items-center px-6'>
+  <section className='bg-mobile md:bg-desktop bg-cover h-2/5 absolute inset-0'></section>
+  <AccordionContainer />
+</main>
 ```
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 ### Useful resources
 
@@ -81,10 +74,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Your Name](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [Erhahon Imafidon](https://www.frontendmentor.io/profile/Erhahon-Imafidon)
+- Twitter - [@ImafidonErhahon](https://x.com/ImafidonErhahon)
 
-## Acknowledgments
-
-Thanks to the Frontend Mentor community for their support and feedback throughout this challenge.
