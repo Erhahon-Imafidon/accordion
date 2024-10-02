@@ -18,8 +18,8 @@ const Accordion = ({ title, content, isOpenState = false }: AccordionProps) => {
     return (
         <div className='bg-whiteFaq p-4'>
             <button onClick={toggleAccordion} className='flex justify-between items-center w-full'>
-                <h2 className='text-dark-purple font-work-sans text-lg font-bold hover:text-medium-purple transition duration-300 text-left'>{title}</h2>
-                {isOpen ? <Minus /> : <Plus />}
+                <h2 className='text-dark-purple font-work-sans md:text-lg font-bold hover:text-medium-purple transition duration-300 text-left text-base'>{title}</h2>
+                {isOpen ?<span className='max-[600px]:w-[40px]'> <Minus  /></span> : <span className='max-[600px]:w-[40px]'><Plus  /></span>}
             </button>
 
 				<div className={`overflow-hidden transition-max-height duration-300 ease-in-out ${isOpen ? 'max-h-48' : 'max-h-0'}`}>
